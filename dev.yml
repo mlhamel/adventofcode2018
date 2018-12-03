@@ -1,0 +1,13 @@
+name: adventeofcode2018
+up:
+  - python: 3.6.5
+  - python_develop
+  - pip:
+    - requirements.txt
+commands:
+  format:
+    desc: "format code"
+    run: 'black setup.py adventeofcode2018 tests'
+  test:
+    desc: "Run all tests"
+    run: 'pytest tests'

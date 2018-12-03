@@ -1,0 +1,4 @@
+adventeofcode2018.egg-info/
+.mypy_cache/
+*.pyc
+__pycache__
